@@ -8,6 +8,8 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var userViewModel: UserViewModel
+    @Environment(\.colorScheme) var colorScheme
+
 
     @State private var userIsLoggedIn: Bool = false
     
