@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+var talonsIcons = ["1st quarter", "3rd quarter", "full", "new moon", "waning crescent", "waning gibbous", "waxing crescent", "waxing gibbous"]
+
 struct LunarEventsView: View {
     
     @State private var horoscopeTextRecIsDark = false

@@ -87,6 +87,7 @@
 		5DFE3D8029D62A0C00F7373E /* LunarEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarEventsView.swift; sourceTree = "<group>"; };
 		5DFE3D8329D62A5900F7373E /* Hubballi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hubballi-Regular.ttf"; sourceTree = "<group>"; };
 		5DFE3D8429D62A5900F7373E /* Red Moon Rising 3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Red Moon Rising 3.otf"; sourceTree = "<group>"; };
+		5DFE3D8729D62A8500F7373E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AB42888D29D2122B00889727 /* StellarCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StellarCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB42889029D2122B00889727 /* StellarCopyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarCopyApp.swift; sourceTree = "<group>"; };
 		AB42889229D2122B00889727 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -232,6 +233,7 @@
 		AB42888F29D2122B00889727 /* StellarCopy */ = {
 			isa = PBXGroup;
 			children = (
+				5DFE3D8729D62A8500F7373E /* Info.plist */,
 				5DFE3D7929D6295400F7373E /* Models */,
 				5DFE3D5529D6260100F7373E /* Components */,
 				ABD7FF8629D6050B0012E741 /* StellarCopy.entitlements */,
@@ -608,6 +610,7 @@
 				DEVELOPMENT_TEAM = 6DH995SKH8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StellarCopy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -638,6 +641,7 @@
 				DEVELOPMENT_TEAM = 6DH995SKH8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StellarCopy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
